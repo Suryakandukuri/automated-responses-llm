@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "automated-responses-llm"
+version = "0.1.0"
+description = "requirements for build a auto generative responses using huggingface dataset and LLMs"
+authors = ["suryakandukuri <sudham.surya@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+datasets = "^2.20.0"
+transformers = "^4.43.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
